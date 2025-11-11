@@ -1,0 +1,28 @@
+(
+echo # Node / Next.js
+echo node_modules/
+echo web/node_modules/
+echo .next/
+echo web/.next/
+echo dist/
+echo build/
+echo out/
+echo npm-debug.log*
+echo yarn-error.log*
+echo .pnp.*
+echo.
+echo # PHP / Composer
+echo vendor/
+echo storage/
+echo *.log
+echo.
+echo # Env ^& IDE
+echo .env
+echo .env.*
+echo .DS_Store
+echo .idea/
+echo .vscode/
+echo.
+echo # Temp
+echo coverage/
+) > .gitignore
